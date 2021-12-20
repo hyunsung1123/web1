@@ -1,0 +1,173 @@
+body{
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:15px;
+
+}
+#grid
+{
+ display:grid;
+ grid-template-columns:250px 1fr 1fr;
+ padding-bottom:15px;
+ border-bottom: 2px solid black;
+}
+#grid .naver{
+margin-top:10px;
+margin-left:120px;
+width:200px;
+height:100px;
+}
+#grid .search{
+  font-family: 'Jua', sans-serif;
+  margin-left:90px;
+  font-size: 35px;
+  border: 4px solid green;
+  width:800px;
+  height:70px;
+  margin-top:27px;
+}
+#grid .button {
+  font-family: 'Jua', sans-serif;
+  font-size:25px;
+  border:green;
+  color: white;
+  text-align:center;
+  width:110px;
+  height:80px;
+  background-color:green;
+  margin-top:27px;
+  padding-left:20px;
+}
+.banner
+{
+  font-family: 'Jua', sans-serif;
+  margin-top:10PX;
+  padding-bottom:10px;
+  border-bottom:2px solid black;
+}
+.banner a
+{
+  padding-left:65px;
+  padding-right:65px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:25px;
+  border-right:3px solid gray;
+
+}
+.banner select{
+  margin-left:70px;
+  height:30px;
+  width:130px;
+  font-family: 'Jua', sans-serif;
+  font-size:25px;
+  color:black;
+  border:none;
+}
+#login
+{
+  font-family: 'Jua', sans-serif;
+  border: 3px solid green;
+  height:180px;
+  width:355px;
+  padding-left:20px;
+  padding-bottom:15px;
+  font-size:25px;
+  margin-right:1000px;
+  margin-top:47px;
+  position:absolute;
+  top:23.5%;
+  left:75%;
+}
+#login p
+{
+  margin-bottom:10px;
+}
+.id
+{
+  width:240px;
+  height:35px;
+  font-size:20px;
+  font-family: 'Jua', sans-serif;
+}
+.pw
+{
+  width:240px;
+  height:35px;
+  font-size:20px;
+  font-family: 'Jua', sans-serif;
+
+}
+.lgbutton
+{
+  position:absolute;
+  top:14%;
+  left:75%;
+  font-family: 'Jua', sans-serif;
+  background-color:green;
+  color:white;
+  height:104px;
+  weight:450px;
+  font-size:30px;
+}
+.idsearch
+{
+  font-size:15px;
+  padding-left:0px;
+  background-color:white;
+  border:none;
+}
+.pwsearch
+{
+  font-size:15px;
+  background-color:white;
+  border:none;
+}
+.join
+{
+  font-size:15px;
+  background-color:white;
+  border:none;
+}
+.ad img
+{
+  padding-top:20px;
+  padding-left:30px;
+  margin-bottom:10px;
+  weight:100px;
+  height:200px;
+}
+#news
+{
+  padding:10px;
+  font-size:25px;
+  display:inline;
+  margin-left:30px;
+  font-family: 'Jua', sans-serif;
+  border: 1px solid #dae1e6;
+}
+#news .main
+{
+  text-decoration: none;
+  padding-right:120px;
+}
+.weather
+{
+  padding:10px;
+  font-size:20px;
+  display:inline;
+  margin-left:10px;
+  font-family: 'Jua', sans-serif;
+  border: 1px solid #dae1e6;
+}
+.dark_mode
+{
+  font-family: 'Jua', sans-serif;
+  font-size:20px;
+  width:150px;
+  height:70px;
+  border-radius:40%;
+  position:fixed;
+  left:88%;
+  top:89%;
+}
